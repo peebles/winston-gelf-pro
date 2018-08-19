@@ -6,7 +6,7 @@ let Transport = winston.Transport || require( 'winston-transport' );
 
 class GelfPro extends Transport {
   get name() {
-    return 'gelf-pro';
+    return 'gelfpro';
   }
 
   constructor( options = {} ) {
@@ -31,8 +31,4 @@ class GelfPro extends Transport {
 }
 
 winston.transports.GelfPro = GelfPro;
-module.exports = {
-  GelfPro
-};
-
-    
+module.exports = GelfPro;

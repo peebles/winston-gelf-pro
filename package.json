@@ -1,0 +1,29 @@
+{
+  "name": "winston-gelf-pro",
+  "version": "1.0.0",
+  "description": "Yet another winston GELF transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "winston",
+    "transport",
+    "gelf",
+    "gelf-pro",
+    "graylog",
+    "graylog2"
+  ],
+  "author": "Andrew Peebles",
+  "license": "ISC",
+  "dependencies": {
+    "gelf-pro": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peebles/winston-gelf-pro.git"
+  },
+  "devDependencies": {
+    "winston": "^2.4.3"
+  }
+}
